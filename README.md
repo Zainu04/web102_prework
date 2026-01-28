@@ -10,10 +10,10 @@ Time spent: 6 hours spent in total
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
@@ -23,10 +23,10 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='assets/web102_prework.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with Kap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -35,10 +35,10 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
-[ ] Learning to use `filter` and `reduce` to calculate totals and filter games.  
-[ ] Using template literals and ternary operators for dynamic text.  
-[ ] Using destructuring and the spread operator to grab top games.  
-[ ] Ensuring the site updates dynamically when buttons are clicked.
+[x] Learning to use `filter` and `reduce` to calculate totals and filter games.  
+[x] Using template literals and ternary operators for dynamic text.  
+[x] Using destructuring and the spread operator to grab top games.  
+[x] Ensuring the site updates dynamically when buttons are clicked.
 
 ## License
 
