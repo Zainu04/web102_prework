@@ -21,6 +21,8 @@ body {
 
 .stats-container {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .stats-card {
@@ -30,6 +32,13 @@ body {
     margin: 1%;
     width: 100%;
     text-align: center;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.stats-card:hover {
+  box-shadow: 0 0 30px lightblue; 
+  cursor: pointer;
 }
 
 #num-contributions, #total-raised, #num-games {
@@ -40,6 +49,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: flex-start;
 }
 
 .game-img {
@@ -55,11 +65,14 @@ body {
     width: 300px;
     text-align: center;
     border-radius: 7px;
+    transition: transform 0.2s, box-shadow 0.3s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .game-card:hover {
     cursor: pointer;
     box-shadow: 0 0 30px lightblue;
+    transform: translateY(-5px);
 }
 
 #button-container {
