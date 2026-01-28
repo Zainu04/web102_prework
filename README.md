@@ -35,6 +35,7 @@ GIF created with Kap
 ## Notes
 
 Describe any challenges encountered while building the app.
+
 [x] Learning to use `filter` and `reduce` to calculate totals and filter games.  
 [x] Using template literals and ternary operators for dynamic text.  
 [x] Using destructuring and the spread operator to grab top games.  
